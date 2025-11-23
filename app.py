@@ -30,4 +30,4 @@ except mysql.connector.Error as err:
 finally:
     if conn.is_connected():
         # Cerrar la conexión
-        conn.close(
+        conn.close()
